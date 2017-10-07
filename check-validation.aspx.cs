@@ -39,7 +39,7 @@ public partial class lab_xhtml_validator_check_validation : System.Web.UI.Page
 
 public bool IsPageValid(string url)
 {        
-    string validatorURL = "http://validator.w3.org/check?uri=";
+    string validatorURL = "https://validator.w3.org/check?uri=";
     string checkURL = validatorURL + url;
     string validStatus = "Invalid";
 
